@@ -8,7 +8,7 @@ bonus = 0.00
 
 # Calculate bonus with nested ifs
 if (productivity_score > 30 ):
-    if (productivity_score > 70):
+    if (productivity_score > 69):
         if (productivity_score >= 200):
             bonus = 200.00
         else:
