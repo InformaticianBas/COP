@@ -6,7 +6,7 @@ transaction_dollar_value = input("Enter transaction dollar value: ")
 productivity_score = int((float(transaction_dollar_value)/float(number_of_transactions))/float(number_of_shifts))
 bonus = 0.00
 
-# Calculate bonus with nested ifs
+# Calculate bonus based on the inputs with nested ifs
 if (productivity_score > 30 ):
     if (productivity_score > 69):
         if (productivity_score >= 200):
@@ -18,6 +18,6 @@ if (productivity_score > 30 ):
 else:
     bonus = 50
 
-#
+# Print the name and calculated bonus 
 print(employee_name)
 print(bonus)
