@@ -16,7 +16,7 @@ if (productivity_score > 30 ):
     else:
         bonus = 75.00
 else:
-    bonus = 50
+    bonus = 50.00
 
 # Print the name and calculated bonus 
 print(employee_name)
