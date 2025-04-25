@@ -35,8 +35,6 @@ while menu_number != 5:
         else:   # Extra that I added
             print('Invalid response')
             continue
-    elif menu_number > 5: # Extra that I added
-        print('Wrong number')
-        continue
+    
 else:
     print('Thank you for using the AutoCountry Vehicle Finder, good-bye!')

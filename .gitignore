@@ -1,0 +1,4 @@
+*.txt
+# The above hides the text file created in the later projects
+Project/Project05v1.py
+Project/Project05v2.py

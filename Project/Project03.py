@@ -1,3 +1,5 @@
+# Reformatted the project to where the program is executed inside a loop instead of being just a static decision structures
+
 AllowedVehiclesList = [ 'Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan' ]
 def prompt():
     print('********************************\nAutoCountry Vehicle Finder v0.3\n********************************\nPlease Enter the following number below from the following menu:\n\n1. PRINT all Authorized Vehicle\n2. SEARCH for Authorized Vehicle\n3. ADD Authorized Vehicle\n4. Exit')
